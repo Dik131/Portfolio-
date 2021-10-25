@@ -11,6 +11,9 @@ h1{
 }
 body{
 	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
 }
 #header1{
 	display: block;
@@ -23,8 +26,7 @@ body{
 	vertical-align: middle;
 }
 .first_infobox{
-	width: 25.5em;
-    border-spacing: 2px;
+	
     border: 1px solid #a2a9b1;
     background-color: #f8f9fa;
     color: black;
@@ -38,4 +40,36 @@ body{
 .Centurion{
 	width: 300px;
 	height: 225px;
+}
+.infobox_label{
+	padding-right: 1em;
+	text-align: left;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+table{
+	border-collapse: separate;
+    text-indent: initial;
+    width: 25.5em;
+    border-spacing: 2px;
+
+}
+.infobox_img{
+	text-align: center;
+	border-bottom: 1px solid #aaa;
+	line-height: 1.5em;
+
+}
+.figure{
+	border-spacing: 0;
+	margin-bottom: 0.3em;
+}
+.infobox_header{
+	background-color: #c3d6ef;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 110%;
 }
