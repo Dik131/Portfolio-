@@ -73,3 +73,20 @@ table{
 	vertical-align: middle;
 	font-size: 110%;
 }
+nav{
+	border: 1px solid #a2a9b1;
+	display: table;
+	padding: 7px;
+	background-color: #f8f9fa;	
+	font-size: 95%;
+}
+.navheader{
+	text-align: center;
+}
+.fig2{
+	border: 1px solid #a2a9b1;
+	float: right;
+	clear: right;
+	width: 220px;
+	padding: 3px;
+}
