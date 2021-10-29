@@ -1,0 +1,765 @@
+body{
+	position: relative;
+	width: 2011px;
+	height: 3314px;
+    background: #FFFFFF;
+}
+header{
+	position: absolute;
+	width: 2011px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+.| 1 {
+	position: absolute;
+width: 7px;
+height: 29px;
+left: 1324px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.| 2{
+	position: absolute;
+width: 7px;
+height: 29px;
+left: 1501px;
+top: 29px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.paidPiperCoin{
+	position: absolute;
+width: 154px;
+height: 29px;
+left: 1339px;
+top: 29px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.theTeam{
+	position: absolute;
+width: 95px;
+height: 29px;
+left: 1516px;
+top: 29px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.theProblem{
+	position: absolute;
+width: 129px;
+height: 29px;
+left: 1187px;
+top: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+logo{
+	position: absolute;
+width: 184px;
+height: 45px;
+left: 501px;
+top: 20px;
+
+}
+.vectorBig {
+	position: absolute;
+left: 0.02%;
+right: 0%;
+top: 0%;
+bottom: -0.09%;
+
+background: #FFFFFF;
+}
+.vectorSmall{
+	position: absolute;
+left: 0%;
+right: 75.55%;
+top: 0%;
+bottom: 0.09%;
+
+background: #FFFFFF;
+}
+Rectangle {
+
+
+position: absolute;
+width: 2011px;
+height: 84px;
+left: 0px;
+top: 0px;
+
+background: #007765;}
+Jumbotron{
+	position: absolute;
+width: 2011px;
+height: 403px;
+left: 0px;
+top: 84px;
+}
+textPiperNetIsHere {
+
+
+position: absolute;
+width: 1219px;
+height: 83px;
+left: 396px;
+top: 244px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+
+color: #FFFFFF;}
+imgBackground{
+	position: absolute;
+width: 2011px;
+height: 403px;
+left: 0px;
+top: 84px;
+
+background: url(.png);
+}
+TheProblemMain{
+	position: absolute;
+width: 2011px;
+height: 719px;
+left: 0px;
+top: 487px;
+
+}
+TheProblemHeader{
+	position: absolute;
+width: 1107px;
+height: 75px;
+left: 451px;
+top: 535px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+
+}
+TheProblemText{
+	position: absolute;
+width: 1110px;
+height: 488px;
+left: 451px;
+top: 626px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+
+}
+TheProblemBox{
+	position: absolute;
+width: 2011px;
+height: 719px;
+left: 0px;
+top: 487px;
+
+background: #EEEEEE;
+}
+Hero{
+	position: absolute;
+width: 2011px;
+height: 483px;
+left: 0px;
+top: 1206px;
+
+}
+HeroText{
+	position: absolute;
+width: 893px;
+height: 228px;
+left: 559px;
+top: 1334px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
+}
+HeroBackgroundimg{
+	position: absolute;
+width: 2011px;
+height: 483px;
+left: 0px;
+top: 1206px;
+
+background: url(.png);
+}
+PPC{
+	position: absolute;
+width: 2011px;
+height: 604px;
+left: 0px;
+top: 1689px;
+
+}
+PPCheader{
+	position: absolute;
+width: 1110px;
+height: 75px;
+left: 451px;
+top: 1737px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+PPC logo{
+	position: absolute;
+width: 115px;
+height: 115px;
+left: 451px;
+top: 1828px;
+
+background: url(.png);
+}
+logoCapcure{
+	position: absolute;
+width: 930px;
+height: 110px;
+left: 614px;
+top: 1828px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+}
+Text{
+	position: absolute;
+width: 1110px;
+height: 223px;
+left: 451px;
+top: 1978px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+
+}
+PPC bg{
+	position: absolute;
+width: 2011px;
+height: 604px;
+left: 0px;
+top: 1689px;
+
+background: #FFFFFF;
+}
+TheTeamMain{
+	position: absolute;
+width: 2011px;
+height: 845px;
+left: 0px;
+top: 2293px;
+}
+TheTeamBox{
+	position: absolute;
+width: 2011px;
+height: 845px;
+left: 0px;
+top: 2293px;
+
+background: #EEEEEE;
+}
+TheTeamHeader{
+	position: absolute;
+width: 1110px;
+height: 75px;
+left: 451px;
+top: 2351px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+
+}
+FirstGuy{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 451px;
+top: 2458px;
+}
+img{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 542px;
+top: 2482px;
+
+background: url(.png);
+}
+Founder & CEO {
+
+position: absolute;
+width: 118px;
+height: 22px;
+left: 566px;
+top: 2691px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+Richard Hendricks {
+
+
+position: absolute;
+width: 199px;
+height: 29px;
+left: 528px;
+top: 2662px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #007765;}
+Rectangle {
+
+position: absolute;
+width: 350px;
+height: 283px;
+left: 451px;
+top: 2458px;}
+LeftBottomGuy{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 451px;
+top: 2771px;
+
+}
+HisPhoto{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 542px;
+top: 2795px;
+
+background: url(.png);
+}
+Who{
+	position: absolute;
+width: 350px;
+height: 22px;
+left: 451px;
+top: 3004px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}
+Name{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 451px;
+top: 2975px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+
+}
+Rectangle {
+
+
+position: absolute;
+width: 350px;
+height: 283px;
+left: 451px;
+top: 2771px;}
+girl{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 831px;
+top: 2771px;
+}
+herPhoto{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 922px;
+top: 2795px;
+
+background: url(.png);
+}
+WhoIsShe{
+	position: absolute;
+width: 350px;
+height: 22px;
+left: 831px;
+top: 3004px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}
+HerName{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 831px;
+top: 2975px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+box{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 831px;
+top: 2771px;
+
+}
+BottomRightGuy{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 831px;
+top: 2771px;
+
+}
+img{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 1302px;
+top: 2795px;
+
+background: url(.png);
+}
+post{
+	position: absolute;
+width: 350px;
+height: 22px;
+left: 1211px;
+top: 3004px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}
+name{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 1211px;
+top: 2975px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+box{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 1211px;
+top: 2771px;
+}
+IndianGuy{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 831px;
+top: 2458px;
+
+}
+img{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 922px;
+top: 2482px;
+
+background: url(.png);
+}
+post{
+	position: absolute;
+width: 350px;
+height: 22px;
+left: 831px;
+top: 2691px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
+name{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 831px;
+top: 2662px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+Rectangle{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 831px;
+top: 2458px;
+}
+TopRightGuy{
+
+position: absolute;
+width: 350px;
+height: 283px;
+left: 1211px;
+top: 2458px;
+
+}
+image{
+	position: absolute;
+width: 168px;
+height: 168px;
+left: 1302px;
+top: 2482px;
+
+background: url(.png);
+}
+post{
+	position: absolute;
+width: 350px;
+height: 22px;
+left: 1211px;
+top: 2691px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
+name{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 1211px;
+top: 2662px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #007765;
+}
+Rectangle{
+	position: absolute;
+width: 350px;
+height: 283px;
+left: 1211px;
+top: 2458px;
+}
+bgTheTeam{
+	position: absolute;
+width: 2011px;
+height: 845px;
+left: 0px;
+top: 2293px;
+
+background: #EEEEEE;
+}
+
+foooter{
+	position: absolute;
+width: 2011px;
+height: 176px;
+left: 0px;
+top: 3138px;
+
+}
+FooterText{
+	position: absolute;
+width: 540px;
+height: 64px;
+left: 736px;
+top: 3188px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+FoooterRectangle{
+	position: absolute;
+width: 2011px;
+height: 176px;
+left: 0px;
+top: 3138px;
+
+background: #333333;	
+}
