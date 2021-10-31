@@ -1,7 +1,10 @@
 body{
-    width: 1219px;
-    padding-right: 55px;
-    padding-left: 55px;
+    
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+
+    font-size: 24px;
+
 }
 header{
 	position: fixed;
@@ -9,31 +12,63 @@ header{
     background-color: #007765;
     width: 100%;
     height: 84px;
-    align-items: center;
     top: 0;
-    left: 0;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
+.container{
+    max-width: 1219px;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav{
-/*    float: right;
-    position: relative;*/
+    display: flex;
+
+    float: right;
+    position: relative;
 
 }
 ul{
     height: 29px;
+
 }
 li{
     display: inline;
     color: white;
+    float: center;
 
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
+    
 
     text-align: center;
 }
 a{
     color: white;
     text-decoration: none;
+}
+
+main{
+/*    width: 1219px;
+    padding-right: 55px;
+    padding-left: 55px;*/
+}
+.jumbatron{
+    background-image: url(../img/image-8.png);
+    background-size: cover;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
 }
