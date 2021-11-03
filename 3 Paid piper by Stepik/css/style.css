@@ -106,3 +106,64 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+.PPCLogo{
+    float: left;
+    padding-right: 48px;
+}
+.text_section_2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+.logotext{
+    padding-top: 30px;
+}
+
+.CEO{
+    /*float: left;*/
+    text-align: center;
+    flex-basis: 33%;
+    margin: 0 0 20px 0;
+
+
+}
+
+.PhotoHeader{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #007765;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+em{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+}
+.Senior{
+    /*float: center;*/
+    text-align: center;
+    flex-basis: 33%;
+    margin: 0 0 20px 0;
+  
+}
+.SysArchitect{
+    /*float: right;*/
+    text-align: center;
+    flex-basis: 33%;
+    margin: 0 0 20px 0;
+
+}
+.figures{
+    display: flex;
+    flex-wrap: wrap;
+
+}
