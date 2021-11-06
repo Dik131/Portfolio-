@@ -78,20 +78,14 @@ h1{
     font-size: 50px;
 }
 .section_2{
-    background-color: #fff; /*Определяет цвет фона элемента*/
+    background-color: #eee; /*Определяет цвет фона элемента*/
     padding-top: 55px;
     padding-bottom: 95px;
-}
-.text_section_2{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
 }
 .message{
     background-image: url(../img/image-9.png);
     background-size: cover;
-    margin-top: 84px;
+
     padding-top: 160px;
     padding-bottom: 160px;
 }
@@ -120,13 +114,11 @@ h1{
     padding-top: 30px;
 }
 
-.CEO{
+.left_person{
     /*float: left;*/
     text-align: center;
     flex-basis: 33%;
     margin: 0 0 20px 0;
-
-
 }
 
 .PhotoHeader{
@@ -148,14 +140,14 @@ em{
     text-align: center;
     
 }
-.Senior{
+.center_person{
     /*float: center;*/
     text-align: center;
     flex-basis: 33%;
     margin: 0 0 20px 0;
   
 }
-.SysArchitect{
+.right_person{
     /*float: right;*/
     text-align: center;
     flex-basis: 33%;
@@ -166,4 +158,23 @@ em{
     display: flex;
     flex-wrap: wrap;
 
+}
+footer{
+    height: 176px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+}
+.FooterText{
+    width: 540px;
+    padding: 48px 0 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+}
+.section_4{
+    background-color: #eee;
 }
