@@ -1,0 +1,40 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+
+}
+ul
+{
+	position: relative;
+	display: flex;
+
+}
+ul li
+{
+	position: relative;
+	line-height: none;
+	margin: 0 20px;
+	cursor: pointer;
+
+}
+ul li a
+{
+	text-decoration: none;
+
+}
+ul li a .fa
+{
+	font-size: 6em;
+	color: #222;
+
+}
