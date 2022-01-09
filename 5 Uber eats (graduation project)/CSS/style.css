@@ -1,3 +1,11 @@
+footer
+{
+	display: flex;
+	justify-content: left bottom;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+}
 *
 {
 	margin: 0;
@@ -6,11 +14,7 @@
 }
 body
 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: #000;
+	
 
 }
 ul
