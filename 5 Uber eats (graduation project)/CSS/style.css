@@ -1,29 +1,36 @@
+html
+{
+	scroll-behavior: smooth;
+}
 footer
 {
-	display: flex;
-	justify-content: left bottom;
-	align-items: center;
-	min-height: 100vh;
-	background: #000;
+	
+	background: #262626;
 }
 *
 {
-	margin: 0;
+
 	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
+}
+/*img{
+	position: relative;
+	display: flex;
+/*	margin: auto 0 0 auto;*/
 }
 body
 {
 	
 
 }
-ul
+/*ul
 {
 	position: relative;
 	display: flex;
 
-}
-ul li
+}*/
+/*ul li
 {
 	position: relative;
 	line-height: none;
@@ -40,5 +47,19 @@ ul li a .fa
 {
 	font-size: 6em;
 	color: #222;
+
+}*/
+/*.social-media
+{
+	display: flex;
+	justify-content: right bottom;
+	align-items: center;
+	min-height: 100vh;
+}*/
+.scroll-to-top
+{
+	position: fixed;
+    inset: auto 2rem 2rem auto;
+	cursor: pointer;
 
 }
