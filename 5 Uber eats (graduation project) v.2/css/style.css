@@ -1,0 +1,31 @@
+html
+{
+	scroll-behavior: smooth;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+footer
+{
+	background: #262626;
+}
+#btnTop{
+	position: fixed;
+    inset: auto 2rem 2rem auto;
+    border: none;
+    outline: none;
+    background-color: green;
+    opacity: .6;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Andele Mono, Monospace;
+}
