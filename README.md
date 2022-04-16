@@ -8,11 +8,12 @@
 
 ### You always can contact with me:
 
-[img align="left" ][instagram]
-[img align="left" ][telegram]
-[img align="left" ][linkedin]
+[img align="left" width="22px" src="./icons/instagram.svg"][instagram]
+[img align="left" width="22px" src="./icons/telegram.svg"][telegram]
+[img align="left" width="22px" src="./icons/linkedin.svg"][linkedin]
 
 <br />
+
 
 [stepik]: https://stepik.org/course/38218
 [certificate]: https://stepik.org/cert/1250032
