@@ -6,7 +6,7 @@
 - So, I'm alsp going to aplly to [Bisness Colllege Helsinki][BCH] to [Full-Stack Web-Dev program][fullstackwebdev]
 
 
-### You always can contact with me:
+### You can always contact with me:
 
 [<img align="left" width="22px" src="./icons/instagram.svg"/>][instagram]
 [<img align="left" width="22px" src="./icons/telegram.svg"/>][telegram]
