@@ -8,9 +8,9 @@
 
 ### You always can contact with me:
 
-[img align="left" width="22px" src="./icons/instagram.svg"][instagram]
-[img align="left" width="22px" src="./icons/telegram.svg"][telegram]
-[img align="left" width="22px" src="./icons/linkedin.svg"][linkedin]
+[<img align="left" width="22px" src="./icons/instagram.svg"/>][instagram]
+[<img align="left" width="22px" src="./icons/telegram.svg"/>][telegram]
+[<img align="left" width="22px" src="./icons/linkedin.svg"/>][linkedin]
 
 <br />
 
