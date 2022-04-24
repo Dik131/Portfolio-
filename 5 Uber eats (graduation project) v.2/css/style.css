@@ -1,6 +1,6 @@
 html
 {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth; /*smooth scroller*/
 }
 *
 {
@@ -12,8 +12,17 @@ footer
 {
 	background: #262626;
 }
+
+main{
+    max-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*body part layout*/
+
 #btnTop{
-	position: fixed;
+    position: fixed;
     inset: auto 2rem 2rem auto;
     border: none;
     outline: none;
@@ -29,3 +38,68 @@ footer
     text-align: center;
     font-family: Andele Mono, Monospace;
 }
+/*customyzed topbutton*/
+
+.search-input {
+    border: none;
+    border-bottom: 1px solid rgba(117,117,117,0.5);
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+    margin-top: 19px;
+}
+/*searching line*/
+
+.title_main{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    margin-top: 56px;
+}
+.list_of_restaurants{
+    margin-top: 16px;
+    display: grid;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.adv{
+    width: 308px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+/*customization of restaurants list*/
+
+.adv p:nth-of-type(2) {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*descriptions of restaurants*/

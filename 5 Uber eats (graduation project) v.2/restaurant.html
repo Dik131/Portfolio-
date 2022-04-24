@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+<!-- Added flexbox grid -->
+	<script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+	<script src="vendor/js/popper.min.js" async></script>
+	<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+	<script src="vendor/js/bootstrap.min.js" defer></script>
+<!-- Added bootstrap elements -->
+
+	<title>
+		Pushkin
+	</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<a href="#">
+					<img src="img/links/logo.svg">
+				</a>				
+			</div>			
+		</nav>
+	</header>
+	<main>
+		
+		
+	</main>
+	<footer>
+
+		<button onclick="topFunction()" id="btnTop" title="Please, click it, I'm begging you" style="display: block;">
+			&#8593;
+		</button>
+	<!-- 	Top button and script to make it works -->
+	<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+    </script>
+	</footer>
+
+</body>
+</html>
