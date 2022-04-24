@@ -103,3 +103,98 @@ p{
     margin-inline-end: 0px;
 }
 /*descriptions of restaurants*/
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #262626;
+    max-width: 100%;
+    height: 100%;
+    }
+.footer{
+    max-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+hr {
+    
+    background-color: white;
+    mix-blend-mode: normal; 
+    opacity: 0.4;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.download_links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+.legal{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.footer_link{
+    padding: 8px 0;
+    color: white;
+    font-size: 0.8125rem;
+}
+.footer_links{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    flex-flow: row;
+}
+.footer_links_column{
+    flex-basis: 33.3333%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.language_selector{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 24px;
+    margin-left: -16px;
+}
+.globe{
+    position: relative;
+    left: 30px;
+}
+.arrow {
+    position: relative;
+    left: 180px;
+    
+}
+.lang_selector{
+
+    border-color: #3B3B3B;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 70px 10px 50px;
+    appearance: none;
+    width: 13rem;
+    background-color: #3B3B3B;
+    margin-left: -12px;
+}
+.hashteg{
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+} 
+.hash{
+    color: green;
+}
+.footer a{
+    color: white;
+}
+   
+/*    footer*/
