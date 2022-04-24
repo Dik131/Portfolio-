@@ -13,6 +13,49 @@ footer
 	background: #262626;
 }
 
+.header{
+    box-shadow: 0 0 16px gray;
+    position: sticky;
+    top: 0px;
+    background-color: light;
+    z-index: 100;
+    max-width: 100%;
+}
+.nav_enter{
+    display: flex;
+    margin: 16px;
+    padding: 3px 6px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.nav-button{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.nav-element{
+    margin: auto 0.9rem;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: rigth;
+    height: 72px;
+    max-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    border: 1px solid var(--color-gray);
+    background-color: var(--color-light);
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s;
+
+}
+
+/*header customization*/
+
 main{
     max-width: 954px;
     margin-left: auto;
