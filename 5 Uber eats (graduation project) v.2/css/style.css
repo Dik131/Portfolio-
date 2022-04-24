@@ -38,8 +38,8 @@ footer
 }
 .navbar{
     display: flex;
-    justify-content: flex-end;
-    align-items: rigth;
+    justify-content: space-between;
+    align-items: center;
     height: 72px;
     max-width: 954px;
     margin-left: auto;
