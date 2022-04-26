@@ -2,6 +2,7 @@
 ## I'm a broadcasting engineer, but right now I study web-deveping:
 - This is my projects for front-end portfolio
 - I've studied how to make of these websites from the course [web-developing for beginers][stepik]
+- My websites from this course [site 1][site1] and [site 2][site2]
 - Here is my [certificate][certificate]
 - So, I'm alsp going to aplly to [Bisness Colllege Helsinki][BCH] to [Full-Stack Web-Dev program][fullstackwebdev]
 
@@ -22,3 +23,5 @@
 [instagram]: https://www.instagram.com/d.i.k.131
 [telegram]: https://t.me/Dik131
 [linkedin]: https://www.linkedin.com/in/dmitry-ivanov-47bb4921a
+[site1]: https://vocal-jelly-d27875.netlify.app/
+[site2]: https://nostalgic-hypatia-379395.netlify.app/
