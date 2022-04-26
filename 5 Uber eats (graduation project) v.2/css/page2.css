@@ -1,0 +1,105 @@
+.bodyheader{
+	height: 364px;
+	background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.restoraunt_banner{
+	width: 389px;
+	height: 204px;
+	margin-left: 81px;
+    max-width: 100%;
+    background-color: white;
+}
+h1{
+    font-size: 36px !important;
+    line-height: 42px !important;
+    display: inline-block;
+    width: 100%;
+    margin-left: 31px;
+    padding-top: 21px;
+}
+.Deliverytime{
+	margin-top: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Deliverytime p:nth-of-type(1) {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    padding-left: 31px;
+}
+.Deliverytime p:nth-of-type(2) {
+	padding: 8px 16px;
+    background: #262626;
+    border-radius: 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #FFFFFF;
+    max-width: 100px;
+    margin-right: 36px;
+
+}
+.bodynav{
+	border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.navmenu{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navlist{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+	font-size: 16px;
+    line-height: 19px;
+}
+ul{
+	list-style: none;
+}
+h2{
+	padding-top: 56px;
+    padding-bottom: 32px;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+.navmenu li a{
+	text-decoration: none;
+    color: #327430 !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.card_title{
+
+}
+.card_title p:nth-of-type(2) {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262 !important;
+}
+p{
+	color: black;
+}
+.food_card{
+	padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+a{
+	color: inherit;
+}    
