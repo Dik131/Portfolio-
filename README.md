@@ -3,7 +3,7 @@
 - This is my projects for front-end portfolio
 - I've studied how to make of these websites from the course [web-developing for beginers][stepik]
 - My websites from this course [site 1][site1] and [site 2][site2]
-- Here is my [Html&CSS_certificate][HTML&CSS_certificate] and [JavaScript_certificate][JavaScript_certificate] 
+- Here are my [Html&CSS_certificate][HTML&CSS_certificate] and [JavaScript_certificate][JavaScript_certificate] 
 - So, I'm alsp going to aplly to [Bisness Colllege Helsinki][BCH] to [Full-Stack Web-Dev program][fullstackwebdev]
 
 
