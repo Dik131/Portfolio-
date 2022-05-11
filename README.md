@@ -3,7 +3,7 @@
 - This is my projects for front-end portfolio
 - I've studied how to make of these websites from the course [web-developing for beginers][stepik]
 - My websites from this course [site 1][site1] and [site 2][site2]
-- Here are my [Html&CSS_certificate][HTML&CSS_certificate] and [JavaScript_certificate][JavaScript_certificate] 
+- Here are my [Html&CSS_certificate][HTML&CSS_certificate] and [JavaScript_certificate][JavaScript_certificate] from Stepik and [JavaScript_certificate][SoloLearnJS] from SoloLearn
 - So, I'm alsp going to aplly to [Bisness Colllege Helsinki][BCH] to [Full-Stack Web-Dev program][fullstackwebdev]
 
 
@@ -26,3 +26,4 @@
 [linkedin]: https://www.linkedin.com/in/dmitry-ivanov-47bb4921a
 [site1]: https://vocal-jelly-d27875.netlify.app/
 [site2]: https://nostalgic-hypatia-379395.netlify.app/
+[SoloLearnJS]: https://www.sololearn.com/certificates/course/en/6772706/1024/landscape/png
