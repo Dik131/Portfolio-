@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+body{
+    font-family: Roboto;
+    background: #E6D5B9;
+}
+.header{
+    height: 158px;
+    background-color: #4E3835;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E6D5B9;
+    border-radius: 10px;
+    padding: 16px 25px;
+}
+.container {
+    padding: 50px 50px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-1 {
+    width: 280px;
+    height: 280px;
+    align-items: right;
+}
+.img-2 {
+    width: 280px;
+    height: 186.41px;
+}
+.img-3 {
+    width: 280px;
+    height: 420px;
+}
+.block-1{
+    padding: 29px 43px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    width: 950px;
+    height: 350px;
+    box-sizing: border-box;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.block-2{
+    padding: 29px 43px;
+    display: block flex;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    width: 950px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.block-3{
+    display: block flex;
+    padding: 29px 43px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+    width: 367px;
+    height: 736px;        
+}
+.margin-top{
+    margin-top: 39px;
+}
+.margin-left{
+    margin-left: 50px;
+    width: 500px;
+}
+.margin-right{
+    margin-right: 50px;
+    flex-direction: row;
+    display: block flex;
+    width: 500px;
+}
+.block-title{
+    margin-bottom: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #4E3835;
+    text-decoration: none;
+    display: block;
+}
+.block-title:hover{
+    text-decoration: underline
+}
+.block-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4E3835;
+}
