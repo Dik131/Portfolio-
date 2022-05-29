@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth; /*smooth scrolling for whole page*/
+}
 body{
     font-family: 'Oswald', sans-serif;
 }
@@ -52,4 +55,34 @@ body{
         background-image: url('../img/coffee_machine.jfif');
     }
 
+}
+.line{
+    width: 184px;
+    height: 5px;
+    background-color: #4E3835;
+    margin: 50px auto;
+}
+.story{
+
+}
+.blog{
+
+}
+.first_card{
+
+}
+.second_card{
+
+}
+.third_card{
+
+}
+.footer{
+
+}
+.contact{
+
+}
+.footer_bottom{
+    
 }
