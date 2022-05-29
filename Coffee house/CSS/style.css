@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.menu{
+
+}
+.logo{
+
+}
+.logo a{
+    text-decoration: none;
+    transform: uppercase;
+}
+.navbar{
+
+}
+.navlist{
+    list-style: none;
+}
+.main{
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+
+    background-position: center center; /*for slider*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 16s linear infinite 0s; /*here you can change timeline of the slider*/
+    animation-timing-function: ease-in-out;
+    background-image: url('../img/coffee_cap.jfif');
+
+    
+}
+@keyframes slideBg { /*slides*/
+    0%{
+        background-image: url('../img/coffee_cap.jfif');
+    }
+    25%{
+        background-image: url('../img/barista.jfif');
+    }
+    50%{
+        background-image: url('../img/geizer_coffee.jfif');
+    }
+    75%{
+        background-image: url('../img/coffee_machine.jfif');
+    }
+
+}
