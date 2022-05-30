@@ -7,22 +7,72 @@ html{
 }
 body{
     font-family: 'Oswald', sans-serif;
+    background-color: #FFFFFF;
+
+}
+.wrapper{ /*I made div wrapper to make the same paddings for several blocks*/
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
 }
 .menu{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    
 }
 .logo{
 
 }
 .logo a{
     text-decoration: none;
-    transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    font-stretch: condensed;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+.logo a:hover{
+    color: #817070;
 }
 .navbar{
+    width: 35%;
 
 }
 .navlist{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist li a:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.navlist li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    font-stretch: condensed;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
 }
 .main{
 
@@ -39,7 +89,9 @@ body{
     animation-timing-function: ease-in-out;
     background-image: url('../img/coffee_cap.jfif');
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @keyframes slideBg { /*slides*/
     0%{
@@ -56,33 +108,224 @@ body{
     }
 
 }
-.line{
-    width: 184px;
-    height: 5px;
-    background-color: #4E3835;
-    margin: 50px auto;
+.home_content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    font-stretch: condensed;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    
 }
+.home_content:hover .line{
+    width: 100%;
+}
+.line{
+    width: 80px;
+    height: 10px;
+    left: 687px;
+    top: 362px;
+    background-color: #817070;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .story{
+    /*padding-bottom: 5%;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-left: 5%;*/
+
+}
+.story h2{
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 700;
+
+
+    color: #000000;
+    padding-bottom: 3%;
+}
+.story_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    animation: wrapperAnim;
+    animation-duration: 8s; /* when you see website in the first time this block appears*/
+    animation-timing-function: linear;
+}
+.story_wrapper img{
+    width: 600px;
+    height: 400px;
+    left: 80px;
+    top: 173px;
+}
+.story_wrapper p{
+    max-width: 650px;
+    max-height: 140px;
+    left: 720px;
+    top: 283px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+    word-wrap: wrap;
+    padding-bottom: 5%;
+}
+@keyframes wrapperAnim {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 
 }
 .blog{
+    background: #EFEFEF;
 
 }
-.first_card{
+.blog h2{
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 700;
 
+
+    color: #000000;
+    padding-bottom: 3%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+.cardswrapper{
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+
+}    
+.first_card{
+    width: 365px;
+    height: 474px;
+    background: #FFFFFF;
 }
 .second_card{
-
+    width: 365px;
+    height: 474px;
+    background: #FFFFFF;
 }
 .third_card{
-
+    width: 365px;
+    height: 474px;
+    background: #FFFFFF;
 }
+.cardswrapper h3{
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 36px;
+    font-stretch: condensed;
+
+    text-align: left;
+
+    color: #000000;
+}
+.cardswrapper img{
+    width: 325px;
+    height: 216px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+.cardswrapper p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    width: 325px;
+    height: 108px;
+}
+
+.first_card:hover{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.second_card:hover{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.third_card:hover{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 .footer{
+    display: flex;
+    flex-direction: column;
 
 }
 .contact{
+    background: #817070;
+    width: 100%;
+    height: 337px;
+    left: 0px;
+    top: 2076px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    text-decoration: none;
+    color: #FFFFFF;
 
 }
 .footer_bottom{
-    
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_bottom span{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-stretch: condensed;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding-top: 2%;
 }

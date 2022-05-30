@@ -11,83 +11,97 @@
 	<title>Coffee house</title>
 </head>
 <body>
-	<header class="menu">
-		<div class="logo">
-			<a href="#">coffee house</a>
-		</div>
-		<nav class="navbar">
-			<ul class="navlist">
-				<li><a href="home_anchor">home</a></li>
-				<li><a href="story_anchor">story</a></li>
-				<li><a href="blog_anchor">blog</a></li>
-				<li><a href="subscribe_anchor">subscribe</a></li>
-			</ul>
-		</nav>		
-	</header>
+	<div class="wrapper">
+		<header class="menu">
+			<div class="logo">
+				<a href="#">COFFEE HOUSE</a>
+			</div>
+			<nav class="navbar">
+				<ul class="navlist">
+					<li><a href="#home_anchor">home</a></li>
+					<li><a href="#story_anchor">story</a></li>
+					<li><a href="#blog_anchor">blog</a></li>
+					<li><a href="#subscribe_anchor">subscribe</a></li>
+				</ul>
+			</nav>		
+		</header>
+	</div>
 
 	<!-- body start -->
 	<main class="main">
 		<div class="home" id="home_anchor"> <!-- here's anchor for navbar -->
-			<h1>
-				TAKE YOUR TIME
-			</h1>
-			<div class="line"></div>
-			
+			<div class="home_content">
+				<h1>
+					TAKE YOUR TIME
+				</h1>
+				<div class="line"></div>
+			</div>
 		</div> <!-- For this part I have the slider to this part -->
 
-		<div class="story" id="story_anchor">
-			<section>
-				<h2>
-					story
-				</h2>
-				<img src="../img/barista.jfif" alt="barista's photo">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.
-				</p>
-			</section>
-			
+		<div class="wrapper">
+			<div class="story" id="story_anchor">
+				<section>
+					<h2>
+						story
+					</h2>
+					<div class="story_wrapper">
+						<img src="../img/barista.jfif" alt="barista's photo">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.
+						</p>
+					</div>
+				</section>			
+			</div>
 		</div>
+		
 		<div class="blog" id="blog_anchor">
-			<h2>
-				blog
-			</h2>
-			<div class="first_card">
-				<section>
-					<h3>
-						Daily Coffee News
-					</h3>
-					<img src="../img/geizer_coffee.jfif" alt="geizer coffee picture">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
-					</p>
-				</section>
-				
+			<div class="wrapper">
+				<h2>
+					blog
+				</h2>
+				<div class="cards">
+					<div class="first_card">
+						<div class="cardswrapper">
+							<section>
+								<h3>
+									Daily Coffee News
+								</h3>
+								<img src="../img/geizer_coffee.jfif" alt="geizer coffee picture">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
+								</p>
+							</section>
+						</div>
+					</div>
+					<div class="second_card">
+						<div class="cardswrapper">
+							<section>
+								<h3>
+									Dutch Coffee Chains 
+								</h3>
+								<img src="../img/coffee_filter.jfif" alt="coffee filter picture">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
+								</p>
+							</section>
+						</div>	
+						
+					</div>
+					<div class="third_card">
+						<div class="cardswrapper">
+							<section>
+								<h3>
+									Start Up In Minneapolis
+								</h3>
+								<img src="../img/coffee_machine.jfif" alt="coffee machine picture">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
+								</p>
+							</section>
+						</div>						
+					</div>
+				</div>
 			</div>
-			<div class="second_card">
-				<section>
-					<h3>
-						Dutch Coffee Chains 
-					</h3>
-					<img src="../img/coffee_filter.jfif" alt="coffee filter picture">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
-					</p>
-				</section>
-				
-			</div>
-			<div class="third_card">
-				<section>
-					<h3>
-						Start Up In Minneapolis
-					</h3>
-					<img src="../img/coffee_machine.jfif" alt="coffee machine picture">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.
-					</p>
-				</section>
-				
-			</div>
-			
 		</div>
 	</main>
 	<!-- body end -->
@@ -97,7 +111,7 @@
 			<a href="#input_subscribe" class="subscribe">
 			subscribe
 			</a>
-			<input type="" name="" id="input_subscribe" placeholder="enter your email">
+			<input type="email" name="" id="input_subscribe" placeholder="enter your email">
 			<button>
 				submit
 			</button>
