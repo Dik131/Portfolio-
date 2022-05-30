@@ -8,6 +8,7 @@ html{
 body{
     font-family: 'Oswald', sans-serif;
     background-color: #FFFFFF;
+    min-width: 1442px; /*I haven't dome an adaptive, because it wasn't in the task, instead I wrote min-width like given in Figma*/
 
 }
 .wrapper{ /*I made div wrapper to make the same paddings for several blocks*/
@@ -85,7 +86,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: slideBg 16s linear infinite 0s; /*here you can change timeline of the slider*/
+    animation: slideBg 18s linear infinite 0s; /*here you can change timeline of the slider*/
     animation-timing-function: ease-in-out;
     background-image: url('../img/coffee_cap.jfif');
 
@@ -306,7 +307,52 @@ body{
     font-stretch: condensed;
     text-decoration: none;
     color: #FFFFFF;
+}
+.subscribe:hover{
+    color: #000000;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact input{
+    background-color: inherit;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 300px;
+    height: 55px;
+    margin: 28px auto 28px;
+}
+.contact input::placeholder{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 30px;
+    opacity: 1;
 
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.contact button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    font-stretch: condensed;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+    width: 129px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+}
+.contact button:hover{
+    background: #000000;
+    color: #FFFFFF;
 }
 .footer_bottom{
     height: 72px;
