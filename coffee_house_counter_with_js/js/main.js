@@ -25,6 +25,9 @@ btn.addEventListener('click', function(){
 
 Итого: ${sum} р.`);
     }
+    if (userName.value == "" || userSecondName.value == ""){
+        alert("Пожалуйста, укажите ваши данные")
+    }
     else {
         alert(`Заказчик: Таинственный незнакомец
 
