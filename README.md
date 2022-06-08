@@ -1,10 +1,10 @@
 	### Hi there, I'm Dmitry!
 ## I'm a broadcasting engineer, but right now I study web-deveping:
-- This is my projects for front-end portfolio
+- This is my projects for web-dev portfolio
 - I've studied how to make of these websites from the course [web-developing for beginers][stepik]
 - My websites from this course [site 1][site1] and [site 2][site2]
 - Here are my [Html&CSS_certificate][HTML&CSS_certificate] and [JavaScript_certificate][JavaScript_certificate] from Stepik and [JavaScript_certificate][SoloLearnJS] from SoloLearn
-- So, I'm alsp going to aplly to [Bisness Colllege Helsinki][BCH] to [Full-Stack Web-Dev program][fullstackwebdev]
+
 
 
 ### You can always contact with me:
