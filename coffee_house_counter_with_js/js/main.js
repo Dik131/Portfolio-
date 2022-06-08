@@ -12,10 +12,32 @@ const total = document.querySelector(".sum");//получите элемент s
 
 btn.addEventListener('click', function(){
     if (userName.value !== '' || userSurname.value !== ''){ //при вводе имени и(или) фамилии, будет выводить введёное
-        alert("Заказчик: "+ userName.value + " " + userSurname.value + `\nИтого: ${sum} р.`);
+        alert(`Заказчик: ${userName.value} ${userSurname.value} 
+
+Ваш заказ:
+Эспрессо ${numbers[0].value} шт. - ${checkboxes[0].value*numbers[0].value} р.
+Американо ${numbers[1].value} шт. - ${checkboxes[1].value*numbers[1].value} р.
+Латте ${numbers[2].value} шт. - ${checkboxes[2].value*numbers[2].value} р.
+Капучино ${numbers[3].value} шт. - ${checkboxes[3].value*numbers[3].value} р.
+Шоколадный кекс ${numbers[4].value} шт. - ${checkboxes[4].value*numbers[4].value} р.
+Черничный кекс ${numbers[5].value} шт. - ${checkboxes[5].value*numbers[5].value} р.
+Яблочный тарт ${numbers[6].value} шт. - ${checkboxes[6].value*numbers[6].value} р. 
+
+Итого: ${sum} р.`);
     }
     else {
-        alert("Заказчик: Таинственный Незнакомец" + `\nИтого: ${sum} р.`);
+        alert(`Заказчик: Таинственный незнакомец
+
+Ваш заказ:
+Эспрессо ${numbers[0].value} шт. - ${checkboxes[0].value*numbers[0].value} р.
+Американо ${numbers[1].value} шт. - ${checkboxes[1].value*numbers[1].value} р.
+Латте ${numbers[2].value} шт. - ${checkboxes[2].value*numbers[2].value} р.
+Капучино ${numbers[3].value} шт. - ${checkboxes[3].value*numbers[3].value} р.
+Шоколадный кекс ${numbers[4].value} шт. - ${checkboxes[4].value*numbers[4].value} р.
+Черничный кекс ${numbers[5].value} шт. - ${checkboxes[5].value*numbers[5].value} р.
+Яблочный тарт ${numbers[6].value} шт. - ${checkboxes[6].value*numbers[6].value} р. 
+
+Итого: ${sum} р.`);
     }
 
 });
@@ -39,7 +61,7 @@ checkboxes.forEach((item, i) => {
             sum -= currentValue;
         }
         
-        total.innerHTML = `Итого: ${sum} р.`;
+        total.innerHTML = `${sum} р.`;
     }
 });
 
@@ -48,7 +70,7 @@ numbers.forEach((item, i) => {
         let currentValue = +item.value * checkboxes[i].value;
 
         item.onblur = () => {
-            if(/^0\d+|^$|[^\d]/.test(item.value)) {
+            if(/^0\d+|^$|[^\d]/.test(item.value)) {                
                 alert('ВНИМАНИЕ! ДАННЫЕ ВВЕДЕНЫ НЕКОРРЕКТНО!');
                 item.value = 0;
                 item.focus();
@@ -57,7 +79,7 @@ numbers.forEach((item, i) => {
             if (checkboxes[i].checked) {
                 let nextValue = item.value * checkboxes[i].value;
                 sum += nextValue - currentValue;
-                total.innerHTML = `Итого: ${sum} р.`;
+                total.innerHTML = `${sum} р.`;
             }
         }
     }  
